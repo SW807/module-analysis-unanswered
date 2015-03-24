@@ -1,0 +1,17 @@
+{
+  "name": "UnansweredCalls",
+  "_version": 1.0,
+  "tables": [
+    {
+      "name": "unanswered_calls",
+      "columns": [
+        { "name": "best_friend", "dataType": "TEXT",
+		{ "name": "change", "dataType": "REAL"}
+      ]
+    }
+  ],
+  "task": {
+    "type": "scheduled",
+    "value": "02:00"
+  }
+}
